@@ -1,5 +1,5 @@
 # Use a base image with Java. Matching the version in your pom.xml (Java 21) is recommended.
-FROM openjdk:21-jdk-slim
+FROM openjdk:21-jdk-jammy
 
 # Set the working directory inside the container
 WORKDIR /app
