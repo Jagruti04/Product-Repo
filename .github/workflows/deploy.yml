@@ -41,8 +41,8 @@ jobs:
       - name: Tag Docker Image
         run: |
           docker tag product-service:latest \
-          123456789012.dkr.ecr.us-east-1.amazonaws.com/product-service:latest
+          005696749996.dkr.ecr.us-east-1.amazonaws.com/product-service:latest
 
       - name: Push Docker Image
         run: |
-          docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/product-service:latest
+          docker push 005696749996.dkr.ecr.us-east-1.amazonaws.com/product-service:latest
