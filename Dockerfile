@@ -10,7 +10,7 @@ ARG JAR_FILE=target/*.jar
 COPY ${JAR_FILE} app.jar
 
 # Expose the port your product service listens on (default Spring Boot is 8080)
-EXPOSE 8080
+EXPOSE 8082
 
 # Command to run the application when the container starts
 ENTRYPOINT ["java", "-jar", "app.jar"]
